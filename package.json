@@ -1,0 +1,26 @@
+{
+  "name": "rtsp-player",
+  "version": "0.2.1",
+  "description": "rtsp-player",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "types": "es/index.d.ts",
+  "author": "qq",
+  "license": "ISC",
+  "files": [
+    "dist/*",
+    "lib",
+    "es",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "dependencies": {
+    "classnames": "^2.3.1"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "lodash": "^4.17.21",
+    "react": ">=16.8.0 || >=17.0.0",
+    "react-dom": ">=16.8.0"
+  }
+}
